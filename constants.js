@@ -1,17 +1,17 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
+export type TrackId = 'DATA_ENGINEERING' | 'FRONTEND' | 'SYSTEMS' | 'BACKEND' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'MOBILE': Milestone,
-  'WEB_CLIENT': Milestone,
-  'FOUNDATIONS': Milestone,
-  'SERVERS': Milestone,
+  'DATA_ENGINEERING': Milestone,
+  'FRONTEND': Milestone,
+  'SYSTEMS': Milestone,
+  'BACKEND': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
   'COMMUNICATION': Milestone,
   'CRAFT': Milestone,
@@ -71,10 +71,10 @@ export type Track = {
 }
 
 type Tracks = {|
-  'MOBILE': Track,
-  'WEB_CLIENT': Track,
-  'FOUNDATIONS': Track,
-  'SERVERS': Track,
+  'DATA_ENGINEERING': Track,
+  'FRONTEND': Track,
+  'SYSTEMS': Track,
+  'BACKEND': Track,
   'PROJECT_MANAGEMENT': Track,
   'COMMUNICATION': Track,
   'CRAFT': Track,
@@ -90,8 +90,8 @@ type Tracks = {|
 |}
 
 export const tracks: Tracks = {
-  "MOBILE": {
-    "displayName": "Mobile",
+  "DATA_ENGINEERING": {
+    "displayName": "Data engineering",
     "category": "A",
     "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
     "milestones": [{
@@ -157,8 +157,8 @@ export const tracks: Tracks = {
     }],
   },
 
-  "WEB_CLIENT": {
-    "displayName": "Web client",
+  "FRONTEND": {
+    "displayName": "Frontend",
     "category": "A",
     "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
     "milestones": [{
@@ -224,8 +224,8 @@ export const tracks: Tracks = {
     }],
   },
 
-  "FOUNDATIONS": {
-    "displayName": "Foundations",
+  "SYSTEMS": {
+    "displayName": "Systems",
     "category": "A",
     "description": "Develops expertise in foundational systems, such as deployments, pipelines, databases and machine learning",
     "milestones": [{
@@ -291,8 +291,8 @@ export const tracks: Tracks = {
     }],
   },
 
-  "SERVERS": {
-    "displayName": "Servers",
+  "BACKEND": {
+    "displayName": "Backend",
     "category": "A",
     "description": "Develops expertise in server side engineering, using technologies such as Go, NodeJS, or Scala",
     "milestones": [{
