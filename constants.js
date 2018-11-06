@@ -122,7 +122,7 @@ export const tracks: Tracks = {
       "summary": "Designs major new features and demonstrates a nuanced understanding of the Data Engineering platform constraints",
       "signals": [
         "Implements complex features with a large product surface area",
-        "Works effectively Spark, Lambda and AWS resources",
+        "Works effectively with Spark, Lambda and AWS resources",
         "Knows about the platform limitations",
       ],
       "examples": [
