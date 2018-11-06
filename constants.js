@@ -249,7 +249,7 @@ export const tracks: Tracks = {
         "Triages service issues correctly and independently",
       ],
       "examples": [
-        "Upgraded MySQL from 5.7 to 8.0",
+        "Upgraded MySQL from 5.6 to 5.7",
         "Built custom packages for RPMs",
         "Improved ETL efficiency by improving Dynamo to S3 loading",
         "Restores a MongoDB or MySQL database from it's backup following the existing documentation",
