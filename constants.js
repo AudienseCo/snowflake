@@ -93,66 +93,66 @@ export const tracks: Tracks = {
   "DATA_ENGINEERING": {
     "displayName": "Data engineering",
     "category": "A",
-    "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
+    "description": "Develops expertise in Data Engineering technologies and procedures such as Big Data Architectures and Pipelines, Databases, DataLakes, SQL, Hadoop, Spark, ETL, Python, Scala and AWS",
     "milestones": [{
-      "summary": "Works effectively within established iOS or Android architectures, following current best practices",
+      "summary": "Works effectively within established Big Data and ETL architectures, following current best practices",
       "signals": [
         "Delivers features requiring simple local modifications",
-        "Adds simple actions that call server endpoints",
+        "Adds simple actions that use the data lake, calls APIs or uses databases",
         "Reuses existing components appropriately",
       ],
       "examples": [
-        "Added existing button to a different iOS surface",
-        "Add follow button for publications on Android",
-        "Fetched and displayed a new stream, using existing stream item styles",
+        "Updated an existing enrichment ETL",
+        "Modified a query on a report",
+        "Changed the behaviour on an existing Lambda",
       ],
     }, {
       "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
       "signals": [
-        "Defines new useful and appropriate proto-generated objects",
-        "Creates simple new activities on Android",
-        "Migrates code from old patterns to new patterns",
+        "Creates new functionality using existing methods",
+        "Creates infrastructure required to run ETL jobs",
+        "Refactors small parts of code",
       ],
       "examples": [
-        "Upgraded SDWebImage to a new major version",
-        "Added support for rendering a new type of stream item",
-        "Prototyped a simple new feature quickly",
+        "Creates a new kind of report reusing existing code",
+        "Creates a new graph on Grafana to monitor response times",
+        "Creates a new Lambda function to update a MongoDB database",
       ],
     }, {
-      "summary": "Designs major new features and demonstrates a nuanced understanding of mobile platform constraints",
+      "summary": "Designs major new features and demonstrates a nuanced understanding of the Data Engineering platform constraints",
       "signals": [
         "Implements complex features with a large product surface area",
-        "Works effectively with  Android reactive programming framework",
-        "Adds support for new iOS features after a major iOS version upgrade",
+        "Works effectively with Spark, Lambda and AWS resources",
+        "Knows about the platform limitations",
       ],
       "examples": [
-        "Designed iOS caching strategy for offline reading",
-        "Built series reader on Android",
+        "Designed a whole new report using data from the Data Lake",
+        "Writes a new ML algorithm ",
         "Informed the team about recent best practice changes and deprecations",
       ],
     }, {
       "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively",
       "signals": [
         "Pioneers architecture migration strategies that reduce programmer burden",
-        "Fixes subtle memory management issues",
-        "Implements interactive dismissals that bring delight",
+        "Fixes performance issues",
+        "Created a framework to handle exceptions that increased the team productivity",
       ],
       "examples": [
-        "Upgraded CocoaPods to a new major version",
+        "Improved performance on 20% or saved 2k USD",
         "Designed architecture for fetching and rendering stream items",
-        "Migrated Android persistance layer to reactive programming",
+        "Migrated (but not planned) the existing ETL software to a shiny new technology",
       ],
     }, {
-      "summary": "Is an industry-leading expert in mobile engineering or sets strategic mobile direction for an eng team",
+      "summary": "Is an industry-leading expert in Data Engineering or sets strategic direction for an Engineering team",
       "signals": [
         "Defines long-term goals and ensures active projects are in service of them",
-        "Designs and builds innovative, industry-leading UI interactions",
-        "Invents new techniques to responsibly stretch limits of the Android platform",
+        "Designs and builds innovative, industry-leading functionality",
+        "Invents new techniques to responsibly stretch limits of the Spark community",
       ],
       "examples": [
-        "Defined and drove complete migration plan to Swift or Kotlin",
-        "Implemented Android recycler views before platform support existed",
-        "Pioneered application-level abstractions for multi-app environment",
+        "Defined and drove complete migration from the old ETL to the new technology",
+        "Designed and implemented a multi technology app",
+        "Researched and benchmarked multiple technologies and selected the appropiate based on business needs",
       ],
     }],
   },
@@ -227,42 +227,46 @@ export const tracks: Tracks = {
   "SYSTEMS": {
     "displayName": "Systems",
     "category": "A",
-    "description": "Develops expertise in foundational systems, such as deployments, pipelines, databases and machine learning",
+    "description": "Develops expertise systems, devops and databases technologies such us Puppet, AWS, MySQL...",
     "milestones": [{
-      "summary": "Works effectively within established structures, following current best practices",
+      "summary": "Works effectively within established DevOps architectures, following current best practices",
       "signals": [
         "Writes thorough postmortems for service outages",
         "Makes simple configuration changes to services",
-        "Performs backfills safely and effectively, without causing pages",
+        "Performs backfills safely and effectively, without causing pages"
       ],
       "examples": [
-        "Made safe and effective Ansible changes",
-        "Implemented new ETL pipelines based on existing ones",
+        "Made safe and effective Terraform or Puppet changes",
+        "Implemented new Docker services based on existing ones",
         "Resolved out of disk errors independently",
       ],
     }, {
       "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
       "signals": [
         "Made minor version upgrades to technologies",
-        "Builds machine learning jobs within the ML framework",
+        "Understands how the existing infrastructure is defined and is able to extend it",
+        "Able to create a database instance using existing technologies",
         "Triages service issues correctly and independently",
       ],
       "examples": [
-        "Upgraded NodeJS from 8.0 to 8.1.1",
+        "Upgraded MySQL from 5.6 to 5.7 (minor upgrade)",
         "Built custom packages for RPMs",
         "Improved ETL efficiency by improving Dynamo to S3 loading",
+        "Restores a MongoDB or MySQL database from it's backup following the existing documentation",
+        "Modify the backup script to support X transaction level",
+        "Creates new documentation when missing",
       ],
     }, {
       "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
       "signals": [
         "Acts as primary maintainer for existing critical systems",
         "Designs moderately complex systems",
-        "Makes major version upgrades to libraries",
+        "Makes database complex tasks such as failovers or query debugging",
       ],
       "examples": [
-        "Designed Ansible configuration management",
-        "Built Medium's realtime stats pipeline",
-        "Designed flexible framework for writing machine learning jobs",
+        "Designed Puppet or Terraform configuration management",
+        "Built Audiense's realtime stats pipeline",
+        "Upgraded MySQL from 5.7 to 8.0 (major upgrade)"
       ],
     }, {
       "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
@@ -272,12 +276,12 @@ export const tracks: Tracks = {
         "Introduces new databases and technologies to meet underserved needs",
       ],
       "examples": [
-        "Designed and built BBFD",
+        "Designed and built the migration of a service with HA with minimum downtime",
         "Designed AWS configuration management",
         "Introduced Kinesis and pioneered streaming events pipeline",
       ],
     }, {
-      "summary": "Is an industry-leading expert in foundational engineering or sets strategic foundational direction for an eng team",
+      "summary": "Is an industry-leading expert in Systems and Devops or sets strategic direction for an eng team",
       "signals": [
         "Designs transformational projects in service of long-term goals",
         "Defines the strategic vision for foundational work and supporting technologies",
