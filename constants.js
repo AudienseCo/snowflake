@@ -93,7 +93,7 @@ export const tracks: Tracks = {
   "DATA_ENGINEERING": {
     "displayName": "Data engineering",
     "category": "A",
-    "description": "Develops expertise in Data Engineering technologies and procedures such as Big Data, Spark, ETL, Python and AWS",
+    "description": "Develops expertise in Data Engineering technologies and procedures such as Big Data Architectures and Pipelines, Databases, DataLakes, SQL, Hadoop, Spark, ETL, Python, Scala and AWS",
     "milestones": [{
       "summary": "Works effectively within established Big Data and ETL architectures, following current best practices",
       "signals": [
