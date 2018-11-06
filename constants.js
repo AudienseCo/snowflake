@@ -102,7 +102,7 @@ export const tracks: Tracks = {
         "Reuses existing components appropriately",
       ],
       "examples": [
-        "Added a new enrichment to the ETL",
+        "Updated an existing enrichment ETL",
         "Modified a query on a report",
         "Changed the behaviour on an existing Lambda",
       ],
