@@ -249,11 +249,12 @@ export const tracks: Tracks = {
         "Triages service issues correctly and independently",
       ],
       "examples": [
-        "Upgraded MySQL from 5.6 to 5.7",
+        "Upgraded MySQL from 5.6 to 5.7 (minor upgrade)",
         "Built custom packages for RPMs",
         "Improved ETL efficiency by improving Dynamo to S3 loading",
         "Restores a MongoDB or MySQL database from it's backup following the existing documentation",
         "Modify the backup script to support X transaction level",
+        "Creates new documentation when missing",
       ],
     }, {
       "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
@@ -265,7 +266,7 @@ export const tracks: Tracks = {
       "examples": [
         "Designed Puppet or Terraform configuration management",
         "Built Audiense's realtime stats pipeline",
-        "Creates new documentation when missing",
+        "Upgraded MySQL from 5.7 to 8.0 (major upgrade)"
       ],
     }, {
       "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
