@@ -98,7 +98,7 @@ export const tracks: Tracks = {
       "summary": "Works effectively within established Big Data and ETL architectures, following current best practices",
       "signals": [
         "Delivers features requiring simple local modifications",
-        "Adds simple actions that uses the data lake, calls APIs or uses databases",
+        "Adds simple actions that use the data lake, calls APIs or uses databases",
         "Reuses existing components appropriately",
       ],
       "examples": [
